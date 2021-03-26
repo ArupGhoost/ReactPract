@@ -1,0 +1,43 @@
+input {
+    text-align: center;
+    height: 30px;
+    top: 10px;
+    border: none;
+    background: transparent;
+    font-weight: 500;
+    border-bottom: 2px solid red;
+    outline: none;
+    transition:  0.3s ;
+}
+li{
+    margin-left: -55px;
+}
+i{
+    color: black;
+    /* position: absolute;
+    top: 190px;
+    left: 750px;
+} */
+    transition: 0.3s ease;
+}
+i:hover{
+    cursor: pointer;
+    color: red;
+}
+input:focus{
+    border: red 2px solid;
+    
+    
+}
+button{
+    position: absolute;
+    top:199px;
+    
+}
+.main_div{
+    border: 2px solid green;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding: 30px;
+    margin-top: 50px;
+}
